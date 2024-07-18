@@ -1,0 +1,27 @@
+<!-- # 6. User Interface
+# Provide a simple user interface to configure and run scans, and to view reports.
+
+# Python Code for Simple User Interface using Flask: -->
+ <!-- HTML Template (templates/index.html)
+Create an HTML template to allow users to input the target IP or domain to scan. --> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerability Scanning Tool</title>
+</head>
+<body>
+    <h1>Vulnerability Scanning Tool</h1>
+    <form action="/scan" method="post">
+        <label for="target">Target:</label>
+        <input type="text" id="target" name="target">
+        <input type="submit" value="Scan">
+    </form>
+    body {
+        background-image: url('https://i.postimg.cc/sXHr1fMF/vulnerability-scanning-768x349.jpg');
+        <!-- background-size: cover;
+        background-repeat: no-repeat; -->
+        background-position: center;
+    }
+</body>
+</html>
